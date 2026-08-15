@@ -54,35 +54,6 @@ Technologies Used
 - CSS3
 
 
-Project Structure
-
-The-Freedom-Scroll/
-│
-├── index.html
-├── independence.css
-│
-├── icon.jpg
-├── old map.jpg
-├── mangal pandey.webp
-├── jallianwala-bagh.jpg
-├── dandimarch.webp
-├── quitindiamoment.jpg
-├── independenceday.jpg
-├── gandhi.jpg
-├── bhagat-singh.webp
-├── netaji.webp
-├── rani-lakshmi.webp
-├── patel.webp
-├── bharathiyar.webp
-├── chandrayan.webp
-├── isro.webp
-├── upi.webp
-├── startup india.webp
-├── indian flag.webp
-├── assembly.webp
-├── gate.jpg
-└── vandebharat.webp
-
 
 Learning Outcomes
 
