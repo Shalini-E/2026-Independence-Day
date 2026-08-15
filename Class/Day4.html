@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Day-4 Session</title>
+</head>
+<body>
+    <!--
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Registration Form</title>
+</head>
+<body>
+
+    <h2>Job Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="fathername">Father's Name:</label><br>
+            <input type="text" id="fathername" name="fathername"><br><br>
+
+            <label for="mothername">Mother's Name:</label><br>
+            <input type="text" id="mothername" name="mothername"><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" id="age" name="age"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mobile">Mobile Number:</label><br>
+            <input type="tel" id="mobile" name="mobile"><br><br>
+
+            <label for="address">Address:</label><br>
+            <textarea id="address" name="address" rows="4" cols="40"></textarea><br><br>
+
+            <label for="city">City:</label><br>
+            <input type="text" id="city" name="city"><br><br>
+
+            <label for="state">State:</label><br>
+            <input type="text" id="state" name="state"><br><br>
+
+            <label for="country">Country:</label><br>
+            <input type="text" id="country" name="country"><br><br>
+
+            <label for="pincode">PIN Code:</label><br>
+            <input type="text" id="pincode" name="pincode"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Educational Details</legend>
+
+            <label for="qualification">Highest Qualification:</label><br>
+            <select id="qualification" name="qualification">
+                <option value="">--Select--</option>
+                <option>10th</option>
+                <option>12th</option>
+                <option>Diploma</option>
+                <option>B.Sc</option>
+                <option>B.Com</option>
+                <option>BCA</option>
+                <option>BE/B.Tech</option>
+                <option>MCA</option>
+                <option>MBA</option>
+                <option>M.Tech</option>
+            </select><br><br>
+
+            <label for="college">College Name:</label><br>
+            <input type="text" id="college" name="college"><br><br>
+
+            <label for="passingyear">Passing Year:</label><br>
+            <input type="number" id="passingyear" name="passingyear"><br><br>
+
+            <label for="percentage">Percentage / CGPA:</label><br>
+            <input type="text" id="percentage" name="percentage"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Job Details</legend>
+
+            <label for="jobrole">Applying For:</label><br>
+            <select id="jobrole" name="jobrole">
+                <option value="">--Select Job Role--</option>
+                <option>Software Developer</option>
+                <option>Java Developer</option>
+                <option>Python Developer</option>
+                <option>Web Developer</option>
+                <option>Frontend Developer</option>
+                <option>Backend Developer</option>
+                <option>Full Stack Developer</option>
+                <option>Data Analyst</option>
+                <option>UI/UX Designer</option>
+                <option>Tester</option>
+            </select><br><br>
+
+            <label for="experience">Experience:</label><br>
+            <select id="experience" name="experience">
+                <option>Fresher</option>
+                <option>1 Year</option>
+                <option>2 Years</option>
+                <option>3+ Years</option>
+            </select><br><br>
+
+            <label>Skills:</label><br>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label>
+
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label>
+
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+
+            <input type="checkbox" id="java" name="skills" value="Java">
+            <label for="java">Java</label>
+
+            <input type="checkbox" id="python" name="skills" value="Python">
+            <label for="python">Python</label>
+
+            <input type="checkbox" id="sql" name="skills" value="SQL">
+            <label for="sql">SQL</label><br><br>
+
+            <label for="resume">Upload Resume:</label><br>
+            <input type="file" id="resume" name="resume"><br><br>
+
+            <label for="coverletter">Cover Letter:</label><br>
+            <textarea id="coverletter" name="coverletter" rows="5" cols="40"></textarea><br><br>
+
+            <label for="joining">Available Joining Date:</label><br>
+            <input type="date" id="joining" name="joining"><br><br>
+
+            <label for="salary">Expected Salary:</label><br>
+            <input type="number" id="salary" name="salary"><br><br>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Declaration</legend>
+
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree">
+                I hereby declare that the above information is true and correct to the best of my knowledge.
+            </label>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit Application">
+        <input type="reset" value="Reset Form">
+
+    </form>
+
+</body>
+</html>
+-->
+<center>
+<fieldset >
+    <legend  align="center">Login Page</legend>
+    <br>
+    <form action="https://www.zomato.com/">
+    <label>E-Mail :</label>
+        <input type="email" placeholder="EX: abc@gmail.com" required>
+    <br>
+    <br>
+    <label>Password :</label>
+    <input type="password" placeholder="Max Character 7" minlength="4" maxlength="7" required>
+   <br>
+   <br>
+           <button type="submit">Login</button>
+           <a href="./Day4-1.html" target="_blank">
+               <button  type="button">Sign Up</button></a>
+
+   </form>
+</fieldset>
+</center>
+</body>
+</html>
