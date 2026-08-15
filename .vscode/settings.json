@@ -1,5 +1,0 @@
-{
-    "github.copilot.chat.agent.autoFix": true,
-    "github.copilot.chat.claudeAgent.useSdkExtension": true,
-    "github.copilot.chat.claudeAgent.allowAutoPermissions": true
-}
