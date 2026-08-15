@@ -77,15 +77,6 @@ Future Enhancements
 - Audio narration for historical events
 - Interactive freedom fighter cards
 
----
-
-How To Run
-
-1. Download or clone the repository.
-2. Open the project folder in VS Code.
-3. Ensure all image files are placed correctly.
-4. Open "index.html" in a browser.
-
 
 
 Acknowledgement
